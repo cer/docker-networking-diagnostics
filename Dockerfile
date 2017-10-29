@@ -1,4 +1,4 @@
-FROM node:0.12.17
+FROM node:8.8.1
 CMD node app.js
 COPY package.json .
 RUN npm install
